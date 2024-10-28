@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            /* background-color: rgb(234, 174, 102); */
+            min-width: 100%;
+            box-sizing: border-box;
+            display: inline-block;
+            justify-content: space-between;
+
+            margin: 0;
+            padding: 0;
+        }
+
+        /* section {
+            display: inline-block;
+            justify-content: space-between;
+
+        } */
+
+        .h3 {
+           /* background-color: azure; */
+            margin-bottom: .5em;
+            width: 100%;
+            border-radius: 7px;
+        }
+
+
+        h2 span:first-child {
+           
+            margin-right: 5px;
+        }
+
+        h2 span:nth-child(2) {
+            color: rgb(44, 44, 44);
+        }
+
+        .result {
+            color: #f7f3f3;
+            background-color: rgb(70, 165, 122);
+            padding: 3em;
+            border-radius: 9px;
+            margin: 0 2em;
+
+        }
+
+        .gameFinish {
+            display: none;
+        }
+        .display {
+            display: none;
+            
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play with Computer</title>
+</head>
+
+<body style="text-align: center;">
+
+    <h2>Play with Computer</h2>
+    <section class="gameArea">
+        <div class="h3">
+            <h2><span class="rp"></span>Players: <span class="player"></span></h2>
+            <h2><span class="rc"></span>Computers: <span class="computer"></span></h2>
+            <p></p>
+        </div>
+        <div>
+            <button class="btn"> Play game</button>
+            <button class="reset">Play agian</button>
+        </div>
+
+    </section>
+    <h1 class="resultArea"></h1>
+    <div class="display">
+        <br>
+        <button class="reset2">Play agian</button>
+    </div>
+    <script src="play.js"></script>
+</body>
+
+</html>
